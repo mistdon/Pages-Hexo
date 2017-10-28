@@ -2,8 +2,10 @@
 
 #your github account
 githubID="momo13014"
+echo "githubId is ${githubID}"
 #relative path
 hexo_dir=`pwd`
+echo "hexo_dir is ${hexo_dir}"
 
 cd hexo_dir
 rm -rf public db.json
@@ -18,3 +20,4 @@ cd $githubID.github.io
 git add --all
 git commit -m "$1"
 git push -u origin master --force
+
