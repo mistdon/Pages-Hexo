@@ -5,16 +5,18 @@
 
 ## 安装 
   参照官网介绍，安装即可（前提安装Node.js）
+  安装 [hexo-deployer-git](https://hexo.io/docs/deployment.html)
 ## 配置
   主要是配置Deploy，就是生成文件的部署位置
 ## 创建新文件
   1. `hexo new "new Post Name"`
   2.  生成一个md文件，直接编辑即可    
   3.  本地测试`hexo server -p 4400`，生成一个`http://localhost:4400/`的本地地址，在浏览器中打开看看效果     
-      其中4400是端口号，如果被占用，换一个就可以    
-  4. `hexo clean` 清理掉本地缓存，生成public文件   
-  5. `hexo deploy` 发布    
-      发布的文件是public下面的文件，会上传到Github
-
-Links:
+      其中4400是端口号，如果被占用，换一个就可以  
+  4.  使用创建的deploy.sh一起执行以下两个命令    
+      `sh deploy.sh`   
+  ~~`hexo clean` 清理掉本地缓存，生成public文件~~
+  ~~`hexo deploy` 发布~~  
+      ~~发布的文件是public下面的文件，会上传到Github~~   
+Links:    
  [How to use Hexo and deploy to GitHub Pages](https://gist.github.com/btfak/18938572f5df000ebe06fbd1872e4e39)
