@@ -80,3 +80,4 @@ deploy:
   type: git
   repo: https://github.com/momo13014/momo13014.github.io
   branch: master
+  message : new blog
